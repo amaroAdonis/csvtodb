@@ -3,16 +3,13 @@ package model.dao.impl;
 import db.DB;
 import db.DbException;
 import model.dao.UserDao;
-import model.entities.User;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
 
 public class UserDaoJDBC implements UserDao {
 
